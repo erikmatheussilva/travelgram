@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
 }
 
 /* variaveis */
@@ -14,6 +13,16 @@
   --shape-transparency: #ffffff57;
   --text-color-primary: #313131;
   --text-color-seconday: #6c6c6c;
+  --font-family: "Poppins", sans-serif;
+  --p-large: 16px/150% var(--font-family);
+  --p-small: 12px/170% var(--font-family);
+  --p-medium: 14px/170% var(--font-family);
+  --heading-1: bold 32px/125% var(--font-family);
+}
+
+.p-md {
+  font-size: 14px;
+  line-height: 170%;
 }
 
 body {
