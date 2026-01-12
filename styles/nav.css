@@ -1,0 +1,25 @@
+
+nav {
+    font: var(--p-large);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-block: 20px;
+    line-height: 0;
+}
+
+nav ul {
+  align-items: center;
+  list-style: none; /* Removes default bullets */
+  display: flex; /* Makes list items line up horizontally */
+  gap: 24px; /* Adds space between list items */
+  padding-block: 8px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--text-color-primary);
+}
+
+
