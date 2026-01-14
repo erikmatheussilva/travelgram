@@ -12,7 +12,7 @@
   --skeleton-color: #d9d9d9;
   --shape-transparency: #ffffff57;
   --text-color-primary: #313131;
-  --text-color-seconday: #6c6c6c;
+  --text-color-secondary: #6c6c6c;
   --font-family: "Poppins", sans-serif;
   --p-large: 16px/150% var(--font-family);
   --p-small: 12px/170% var(--font-family);
@@ -28,12 +28,17 @@ body {
 
 a {
   text-decoration: none;
-  color: inherit;
+  color: var(--text-color-secondary);
 }
 
-p {
-
+p,
+li {
+  color: var(--text-color-secondary);
   font: var(--p-medium);
+}
+
+span {
+  color: var(--text-color-secondary);
 }
 
 a:hover {
@@ -41,7 +46,7 @@ a:hover {
   text-decoration: underline;
 }
 
-.container  {
+.container {
   padding-inline: 32px;
   max-width: 1280px;
   margin-inline: auto;
@@ -50,4 +55,3 @@ a:hover {
 .bg-surface-color {
   background-color: var(--surface-color);
 }
-

@@ -1,0 +1,12 @@
+footer {
+    display: flex;
+    align-items: center;
+    font: var(--p-small);
+    justify-content: space-between;
+    padding-block: 16px;
+}
+
+footer a:nth-child(2){
+    margin-left: 16px;
+}
+

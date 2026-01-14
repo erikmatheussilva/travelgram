@@ -35,4 +35,5 @@ header .container {
 .info li {
   display: flex;
   gap: 8px;
+
 }
