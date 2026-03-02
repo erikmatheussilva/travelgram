@@ -1,12 +1,28 @@
-footer {
+
+ footer {
+    display: grid;
+    justify-content: center;
+    font: var(--p-small);
+    padding-block: .875rem;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  footer a:nth-child(2) {
+    margin-left: 1rem;
+  }
+
+
+@media (width >= 80em) {
+  footer {
     display: flex;
     align-items: center;
     font: var(--p-small);
     justify-content: space-between;
-    padding-block: 16px;
-}
+    padding-block: 1rem;
+  }
 
-footer a:nth-child(2){
-    margin-left: 16px;
+  footer a:nth-child(2) {
+    margin-left: 1rem;
+  }
 }
-

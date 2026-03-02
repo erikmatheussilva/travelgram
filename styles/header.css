@@ -1,27 +1,18 @@
 header {
-  padding-block: 32px;
+  padding-block: 2rem;
   font: var(--p-medium);
 }
 
-header .container {
-  align-items: center;
-  display: flex;
-  /* align-items: center; */
-
-  justify-content: space-between;
-}
 
 .profile {
-  display: flex;
-  gap: 32px;
-  max-width: 50%;
   align-items: center;
+  margin-bottom: 1rem;
 }
 
 .profile h1 {
   font: var(--heading-1);
   color: var(--text-color-primary);
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
 }
 
 .info {
@@ -29,11 +20,51 @@ header .container {
   display: flex;
   list-style: none;
   flex-direction: column;
-  gap: 16px;
+  gap: 1rem;
 }
 
 .info li {
   display: flex;
-  gap: 8px;
+  gap: 0.5rem;
+}
 
+@media (width >= 80em) {
+  header {
+    padding-block: 2rem;
+    font: var(--p-medium);
+  }
+
+  header .container {
+    align-items: center;
+    display: flex;
+    /* align-items: center; */
+
+    justify-content: space-between;
+  }
+
+  .profile {
+    display: flex;
+    gap: 2rem;
+    max-width: 50%;
+    align-items: center;
+  }
+
+  .profile h1 {
+    font: var(--heading-1);
+    color: var(--text-color-primary);
+    margin-bottom: 0.5rem;
+  }
+
+  .info {
+    width: 280px;
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .info li {
+    display: flex;
+    gap: 0.5rem;
+  }
 }

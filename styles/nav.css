@@ -5,7 +5,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding-block: 20px;
+    padding-block: 1.25rem;
     line-height: 0;
 }
 
@@ -13,8 +13,8 @@ nav ul {
   align-items: center;
   list-style: none; /* Removes default bullets */
   display: flex; /* Makes list items line up horizontally */
-  gap: 24px; /* Adds space between list items */
-  padding-block: 8px;
+  gap: 1.5rem; /* Adds space between list items */
+  padding-block: .5rem;
 }
 
 
